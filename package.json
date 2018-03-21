@@ -1,0 +1,29 @@
+{
+  "name": "denier_white",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/amcorvi/denier_white.git",
+  "author": "AMCorvi <am@corvi.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "@amcorvi/eslint-config": "0.0.3",
+    "commander": "2.15.1",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "documentation": "6.1.0",
+    "eslint": "4.19.0",
+    "eslint-plugin-react": "7.7.0",
+    "jest": "22.4.2",
+    "semantic-release-cli": "3.6.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "script": {
+    "test": "jest",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
+  }
+}
